@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
+
+.howitworks {
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+}
+
+.howitworks-text {
+  width: 415px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.howitworks-text h2 {
+  font-size: 42px;
+  color: #ff5d56;
+  text-align: left;
+}
+
+.alt-text_2 {
+  font-size: 42px;
+  color: black;
+}
+.howitworks-text .h{
+  margin-left: 30px;
+}
+.howitworks-text p {
+  text-align: left;
+  font-size: 16px;
+  width: 415px;
+  left: 0;
+  padding-left: 30px;
+}
+.howitworks-text .li{
+  margin-top: 35px;
+}
+.howitworks-text li {
+  text-align: left;
+  list-style: none;
+  padding-top: 10px;
+  justify-content: left;
+  font-weight: bold;
+  padding-left: 30px;
+}
+.howitworks-info__1{
+  display: flex;
+}
+.howitworks-info__2{
+  display: flex;
+  
+}
+.info button{
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background-color: #FF9604;
+  border: none;
+   margin-top: 35px;
+}
+.info{
+  margin-left: 150px;
+  padding-left: 50px;
+}
+.infor p,h3{
+  padding-left: 0px;
+  text-align: left;
+}
+.infor2{
+    margin-left: 100px;
+}
+.numb{
+  font-weight: bolder;
+  font-size: 25px;
+  position: absolute;
+}
+@media screen and (max-width:768px){
+   .howitworks{
+    display: flex;
+    flex-direction: column;
+   }
+   .info{
+      text-align: left;
+      margin-right: 0px;
+      margin-left: 0px;
+      width: 650px;
+      margin-top: 80px;
+   }
+   .infor .bt{
+    margin-left: 145px;
+    
+   }
+   .numb{
+    margin-left: 145px;
+   }.infor2{
+    margin-left: 5px;
+   }
+   .infor .head, .pa{
+       text-align: center;
+   }
+   .infor .pa{
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.howitworks .h{
+  width: 500px;
+  display: flex;
+}
+.alt-text_2{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.howitworks-text .h{
+     margin-left: 120px;
+}
+.howitworks-text p{
+  width: 700px;
+   text-align: center;
+   margin-left: 10px;  
+}
+.howitworks-text .li{
+  width: 200px;
+   margin-left: 250px;
+   margin-top: 40px;
+}
+.howitworks-text .li li{
+  padding-top: 40px;
+}
+}
